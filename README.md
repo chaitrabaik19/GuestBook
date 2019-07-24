@@ -37,12 +37,33 @@ There is logout function in each screen which enables you to go back to login sc
 
 Project architecture :
 
+below are the pre-requisites to be present 
 
 IDE used : eclipse mars
 jdk version : 8.0.1
 database : oracle db 11g 
 framework : java /spring mvc framework and jdbctemplate on db layer 
 server : tomcat 7.0
+repository : git 
+git version : 2.22.0
+git client : tortoise git client
+
+currently i have not used maven for downloading the jars, but added the jars manually in build path. but this project can be updated as maven project giving all dependincies.
+
+DATABASE layer :
+
+
+database name : Guestbook
+tables used :
+
+1) static table(for the moment ) : USERS 
+contains all the user login details 
+
+2) dynamic table which uses users table primary key as foriegn key .
+MESSAGE
+will have all the entries by user and also saves the uploaded image path 
+
+
 
 
 
