@@ -9,12 +9,12 @@ there are 2 ways of login:
 1)Login as user :
 
 user1 :
-user name : abc
-password : guest 
+user name : "abc"
+password : "guest" 
 
 user 2:
-user name : chaitra
-password : guest 
+user name : "chaitra"
+password : "guest" 
 
 for the moment the login details are validated from static table as we do not register functionality 
 
@@ -22,8 +22,8 @@ for the moment the login details are validated from static table as we do not re
 2) login as Admin 
 
 admin credentials:
- usernname : admin
- password  : admin 
+ usernname : "admin"
+ password  : "admin" 
 
 
 when you login as user , you will have a entry form where you can add your message and also upload the image
